@@ -21,3 +21,11 @@ body{
 .scroll-obj{
     padding: 25px;
 }
+@media (max-width: 700px){
+    .container{
+        width: 20rem;
+    }
+    .scroll-bar{
+        width: 20rem;
+    }
+}
