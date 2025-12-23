@@ -21,6 +21,9 @@ body{
 .scroll-obj{
     padding: 25px;
 }
+.scroll-obj::-webkit-scrollbar-button{
+    color: black;
+}
 @media (max-width: 700px){
     .container{
         width: 20rem;
